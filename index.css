@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body{
+    margin: 20px 30% 0 30%;
+    background: #1C1C1C;
+    left: 62px;
+    top: 64px;
+}
+.box-card{
+    border-style:2px solid black;
+    background-color: #1F2937;
+    width:550px;
+    height:550px;
+    padding:0 60px 0 60px;
+    left: 62px;
+    top: 64px;
+}
+.top-box{
+    border-bottom: 1px solid #2F3E53;
+    width:446px;
+}
+h1{
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 118px;
+    
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    
+    text-align: left;
+    padding-top: 100px;
+    color:#fff;
+}
+.green-header{
+    color:#10B981;
+}
+p{
+    width: 372px;
+height: 28px;
+left: 52px;
+top: 208px;
+
+/* text-xl/leading-7/font-normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+
+/* Medium grey */
+
+color: #D5D4D8;
+
+}
+.password-gen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    margin-bottom:30px;
+    border-style:none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 223px;
+    height: 42px;
+    left: 52px;
+    top: 287px;
+    color:#ffffff;
+    background: #10B981;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+label{
+    color:#fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.pass1{
+    margin:20px 20px 30px 0;
+    width:211px;
+    height:20px;
+    text-align:center;
+    justify-content:center;
+    padding:10px 0 10px 0;
+    background: #273549;
+    border-radius: 6px;
+    color: #55F991;
+    border-style:none;
+}
+.pass2{
+    margin-top:20px;
+    left:235px;
+    width:211px;
+    height:20px;
+    text-align:center;
+    justify-content:center;
+    padding:10px 0 10px 0;
+    background: #273549;
+    border-radius: 6px;
+    color: #55F991;
+    border-style:none;
+}
+.pass3{
+    width:211px;
+    height:20px;
+    margin-right: 20px;
+    text-align:center;
+    justify-content:center;
+    padding:10px 0 10px 0;
+    background: #273549;
+    border-radius: 6px;
+    color: #55F991;
+    border-style:none;
+    
+}
+
+.pass4{
+    width:211px;
+    height:20px;
+    text-align:center;
+    justify-content:center;
+    padding:10px 0 10px 0;
+    background: #273549;
+    border-radius: 6px;
+    color: #55F991;
+    border-style:none;
+}
